@@ -1,0 +1,7 @@
+---
+name: amazon-ssm-agent.deb
+
+dependencies: []
+
+files:
+  - amazon-ssm-agent.deb # 2018.August.17 From https://s3.amazonaws.com/ec2-downloads-windows/SSMAgent/latest/debian_amd64/amazon-ssm-agent.deb 

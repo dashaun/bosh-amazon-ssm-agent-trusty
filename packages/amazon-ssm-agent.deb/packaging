@@ -1,0 +1,7 @@
+set -e -x
+
+cp amazon-ssm-agent.deb ${BOSH_INSTALL_TARGET}
+
+cd ${BOSH_INSTALL_TARGET}
+
+sudo dpkg -i amazon-ssm-agent.deb
